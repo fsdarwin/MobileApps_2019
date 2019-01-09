@@ -135,16 +135,16 @@ public class week1daily2homework2 {
     //problem 5
     public void printTables(){
         int[][] multiplicationArray = new int[10][10];
-        for (int x = 1; x < 11; x++){ // these two loops will creat the 10 x 10 multiplicatiion table
-            for (int y = 1; y < 11; y++){
-                multiplicationArray[x -1][y -1] = x * y; // the [row][col] will equal the product of the two.
+        for (int x = 1; x < 11; x++) { // these two loops will creat the 10 x 10 multiplicatiion table
+            for (int y = 1; y < 11; y++) {
+                multiplicationArray[x - 1][y - 1] = x * y; // the [row][col] will equal the product of the two.
             }// print out the array
+        }
             for (int i = 0; i < 10; i++){
                 for (int j = 0; j < 10; j++){
-                    System.out.print(multiplicationArray[i][j] + " ");
+                    System.out.print(multiplicationArray[i][j]+" ");
                 }
                 System.out.println();
             }
-        }
     }
 }
